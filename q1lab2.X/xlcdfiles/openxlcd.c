@@ -1,6 +1,6 @@
 #include <p18cxxx.h>
-#include "delays.h"
-#include "lab1_xlcd.h"
+#include "..\lab2_delays.h"
+#include "lab2_xlcd.h"
 
 /********************************************************************
 *       Function Name:  OpenXLCD                                    *

@@ -1,7 +1,7 @@
 #include <p18f452.h>
 #include <stdio.h>
-#include "lab1_xlcd.h"
-#include <delays.h>
+#include "lab2_xlcd.h"
+#include "../lab2_delays.h"
 
 extern void DelayFor18TCY(void){
     Delay1TCY();Delay1TCY();Delay1TCY();Delay1TCY();Delay1TCY();Delay1TCY();

@@ -4,15 +4,16 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <logicalFolder name="f1" displayName="uCOS-headers" projectFiles="true">
+      <logicalFolder name="f1" displayName="uCOS-Files" projectFiles="true">
+        <itemPath>uCOS-Files/INCLUDES.h</itemPath>
         <itemPath>uCOS-Files/OS_CFG.H</itemPath>
         <itemPath>uCOS-Files/OS_CPU.H</itemPath>
         <itemPath>uCOS-Files/UCOS_II.H</itemPath>
-        <itemPath>uCOS-Files/INCLUDES.H</itemPath>
       </logicalFolder>
       <logicalFolder name="f2" displayName="xlcd-headers" projectFiles="true">
-        <itemPath>xlcdfiles/lab1_xlcd.h</itemPath>
+        <itemPath>xlcdfiles/lab2_xlcd.h</itemPath>
       </logicalFolder>
+      <itemPath>lab2_delays.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -49,8 +50,7 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>xlcdfiles</Elem>
-    <Elem>uCOS-Files</Elem>
+    <Elem>.</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

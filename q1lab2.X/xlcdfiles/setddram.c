@@ -1,5 +1,7 @@
 #include <p18cxxx.h>
-#include "lab1_xlcd.h"
+#include "lab2_xlcd.h"
+#include "..\lab2_delays.h"
+
 /********************************************************************
 *       Function Name:  SetDDRamAddr                                *
 *       Return Value:   void                                        *

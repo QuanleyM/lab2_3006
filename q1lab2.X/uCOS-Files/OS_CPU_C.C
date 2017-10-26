@@ -16,7 +16,7 @@
 */
 
 #define  OS_CPU_GLOBALS
-#include "includes.h"
+#include "INCLUDES.h"
 
 /*
 *********************************************************************************************************
@@ -740,7 +740,8 @@ _asm
 	MOVF POSTDEC1, 1, 0
 	MOVF POSTDEC1, 1, 0
 _endasm
-#endif
+#endif
+
 	// Save the current task's return address hardware stack
     FSR0L = 0;
     while(STKPTR & 0x1F)
