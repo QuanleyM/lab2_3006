@@ -2,10 +2,12 @@
 // Student ID No .:
 // Date :
 ///////////////////////////////////////////////////////////////////
-#include "uCOS-Files\INCLUDES.h"
+#include "uCSource\includes.h"
 #include "lab2_delays.h"
 #include <timers.h>
 #include <xlcd.h>
+#include <stdio.h>
+#include "app_cfg.h"
 /* Write the appropriate code to set configuration bits :
 * - set HS oscillator
 * - disable watchdog timer

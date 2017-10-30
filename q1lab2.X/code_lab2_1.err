@@ -1,0 +1,3 @@
+Error[1027] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\includes.h 48 : unable to locate 'os_cpu.h'
+Error[1027] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\includes.h 49 : unable to locate 'os_cfg.h'
+Error[1027] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\includes.h 51 : unable to locate 'ucos_ii.h'

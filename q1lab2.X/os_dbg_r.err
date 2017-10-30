@@ -1,0 +1,20 @@
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 123 : symbol 'OS_TMR' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 124 : symbol 'OSTmrTbl' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 125 : symbol 'OS_TMR_WHEEL' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 126 : symbol 'OSTmrWheelTbl' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 162 : symbol 'OSTickStepState' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 176 : symbol 'OSTmrFree' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 177 : symbol 'OSTmrUsed' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 178 : symbol 'OSTmrTime' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 179 : symbol 'OSTmrSem' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 180 : symbol 'OSTmrSemSignal' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 181 : symbol 'OSTmrTbl' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 182 : symbol 'OSTmrFreeList' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 183 : symbol 'OSTmrTaskStk' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 184 : symbol 'OSTmrWheelTbl' has not been defined
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 293 : symbol 'OSTmrTbl' has not been defined
+Error[1129] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 293 : [] operator requires a pointer and an integer as operands
+Error[1101] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 293 : lvalue required
+Error[1105] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 294 : symbol 'OSTmrWheelTbl' has not been defined
+Error[1129] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 294 : [] operator requires a pointer and an integer as operands
+Error[1101] C:\Users\qmari\OneDrive\Source Code\Assembly\ECNG3006\L02_815117414\q1lab2.X\uCSource\os_dbg_r.c 294 : lvalue required
