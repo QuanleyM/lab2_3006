@@ -541,6 +541,8 @@
       </item>
       <item path="uCSource/os_time.c" ex="true" overriding="false">
       </item>
+      <item path="uCSource/xlcd.h" ex="true" overriding="false">
+      </item>
     </conf>
   </confs>
 </configurationDescriptor>

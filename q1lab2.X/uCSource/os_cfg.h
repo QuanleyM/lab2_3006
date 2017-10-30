@@ -19,6 +19,9 @@
 *********************************************************************************************************
 */
 
+#ifndef OS_CONFIG_H
+#define OS_CONFIG_H
+
 #define OS_MAX_EVENTS           10L    /* Max. number of event control blocks in your application ...  */
                                        /* ... MUST be > 0                                              */
 #define OS_MAX_FLAGS             2L    /* Max. number of Event Flag Groups    in your application ...  */
@@ -119,4 +122,6 @@ typedef INT16U             OS_FLAGS;   /* Date type for event flag bits (8, 16 o
     #error  "OS_CFG.H, OS_LOWEST_PRIO is set too low to use OS_MAX_TASKS"
     #endif
 #endif
+#endif
+
 #endif

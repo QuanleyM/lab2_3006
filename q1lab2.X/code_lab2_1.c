@@ -2,7 +2,7 @@
 // Student ID No .:
 // Date :
 ///////////////////////////////////////////////////////////////////
-#include "uCSource\includes.h"
+#include <p18f452.h>
 #include "lab2_delays.h"
 #include <timers.h>
 #include <xlcd.h>

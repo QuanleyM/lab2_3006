@@ -15,6 +15,9 @@
 *********************************************************************************************************
 */
 
+#ifndef OS_CPU_H
+#define OS_CPU_H
+
 // Interrupt handling - define in user code.
 void CPUlowInterruptHook(void);
 void CPUhighInterruptHook(void);
@@ -131,3 +134,5 @@ void OSCtxSw(void);
 #define  OS_TASK_SW()         OSCtxSw()
 
 /* end */
+
+#endif

@@ -21,6 +21,9 @@
 *********************************************************************************************************
 */
 
+#ifndef INCLUDES_H
+#define INCLUDES_H
+
 #define  CPU_FRT_FREQ        1000000L  /* Free Running Timer rate (Hz)                                 */
 
 #define  OS_TICK_OC                 1  /* Output compare # used to generate a tick int.                */
@@ -34,7 +37,7 @@
 *********************************************************************************************************
 */
 
-#include <p18cxxx.h>        // Register definitions
+#include <p18f452.h>        // Register definitions
 #include  <STRING.H>
 
 /*
@@ -45,8 +48,10 @@
 
 #define   OS_ISR_PROTO_EXT                   /* Function prototypes for OSCtxSw() and OSTickISR() ...  */
                                              /* ... are found in OS_CPU.H                              */
-#include  "OS_CPU.H"                         /* Processor specific header file                         */
-#include  "OS_CFG.H"                         /* The OS configuration header                            */
+#include  "os_cpu.h"                         /* Processor specific header file                         */
+#include  "os_cfg.h"                         /* The OS configuration header                            */
 
-#include  "uCOS_II.H"                        /* uC/OS-II header file                                   */
-#include  "xlcd.h"
+#include  "ucos_ii.h"                        /* uC/OS-II header file                                   */
+//#include  "xlcd.h"
+
+#endif

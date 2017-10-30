@@ -17,6 +17,9 @@
 *********************************************************************************************************
 */
 
+#ifndef UCOS_II_H
+#define UCOS_II_H
+
 #define  OS_VERSION              252                    /* Version of uC/OS-II (Vx.yy mult. by 100)    */
 
 #ifdef   OS_GLOBALS
@@ -1147,4 +1150,6 @@ void          OSTickISR(void);
 
 #ifndef OS_SCHED_LOCK_EN
 #error  "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+#endif
+
 #endif
